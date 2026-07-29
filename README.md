@@ -1,28 +1,27 @@
-# ANKER – Stabilisationsachse · iki1uc
+# RESPO.next — ANKER · Stabilisationsachse
 
 ## Zweck
-ANKER ist die Stabilisationsachse des iki1uc‑Systems.
-Es hält die Achsen IQ, QI, EVO, UPD, UPG, BIOS und CALC im korrekten Verhältnis.
+RESPO.next ist die neue Stabilisationsachse des iki1uc-Systems.
+Er verbindet ORT, HOME, DELTA und STABIL zu einem stabilen Respo-Wert.
 
-## Struktur
-- NAME: ANKER
-- ID: A01
-- Station: S01
-- Dimension: D4
-- Modus: erabel (neutral, operation möglich)
+## Funktionen
+- Delta-Respo berechnen
+- Stabilität auswerten
+- Orbit-Respo vorbereiten
+- NC.vector versorgen
+- Nevada-State ermöglichen
 
-## Rolle
-ANKER stabilisiert, ohne selbst aktiv zu berechnen oder zu steuern.
-Es ist die neutrale Achse zwischen AXI, 6d und API.
+## Speicher-Zonen
+- d:/tmp
+- r:/tmp
+- c:/tmp
+- X81 / P81 / Q81
 
-## Bindungen
-- AXI
-- 6d
-- 360
-- 100
-- 213 (REAL)
-- API
-
-## Status
-STATE = STABIL  
-READY = 100%
+## Dateien
+- index.html
+- ID.html
+- README.md
+- sys.in.json
+- sys.out.json
+- sys.scale.json
+- sys.hdf.json
